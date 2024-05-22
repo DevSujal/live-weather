@@ -1,0 +1,13 @@
+.eachtime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.eachtime span {
+    font-size: 16px;
+}
+.eachtime .icon {
+    font-size: 34px;
+}

@@ -1,0 +1,21 @@
+.eachday {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.eachday .type {
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+}
+.eachday .type span {
+    font-size: 16px;
+}
+
+.eachday .span {
+width: 20px;
+}
+
+@media screen and (mac-width : 600px){
+    
+}

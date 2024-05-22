@@ -1,0 +1,18 @@
+.weather {
+    flex: 3;
+    background-color: var(--main-color);
+    height: 100%;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+@media screen and (max-width : 600px) {
+    .weather {
+        width: 100%;
+        gap: 10px;
+    }
+}

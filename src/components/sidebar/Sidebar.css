@@ -1,0 +1,47 @@
+.sidebar {
+    flex: .5;
+    height: 100%;
+    background:  var(--main-color);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;    
+    padding: 5px;
+}
+.sidebar .icon {
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+
+    &.main {
+        color: lightblue;
+        background: rgb(67, 94, 102);
+        border-radius: 5px;
+    }
+}
+
+
+.sidebar .icon span {
+    font-size: 10px;
+}
+
+@media screen and (max-width : 600px) {
+    .sidebar {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        height: fit-content;
+        overflow: hidden;
+        background: black;
+        transition: all ease .5s;
+        }
+
+    }
+    

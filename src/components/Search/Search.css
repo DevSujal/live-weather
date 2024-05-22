@@ -1,0 +1,38 @@
+.search {
+    width: 90%;
+}
+
+.search input {
+    width: 100%;
+    height: 30px;
+    padding: 10px 5px;
+    background: var(--main-color);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    &::placeholder {
+        position: relative;
+        left: 10px;
+        color: white;
+    }
+}
+
+@media screen and (max-width : 600px) {
+
+    .search {
+        position: relative;
+        top: 8px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .search input {
+        width: 70%;
+        position: relative;
+        left: 100px;
+    }
+    
+}
+
