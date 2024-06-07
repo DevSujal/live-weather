@@ -1,15 +1,19 @@
 import "./Top.css";
 import { MdSunny } from "react-icons/md";
-const Top = () => {
+const Top = ({
+  data
+}) => {
   return (
     <div className="top">
       <div className="left">
-        <span className="city">Nagpur</span>
-        <span>chance of rain 0%</span>
-        <span className="city">30</span>
+        {
+          console.log(data)}
+        <span className="city">{data ? data.location.name : "Nagpur"}</span>
+        <span>humidity {data ? data.current.humidity : 40}</span>
+        <span className="city">{data ? data.current.temp_c : 30}&deg; C</span>
       </div>
       <div className="right">
-        <MdSunny color="yellow" />
+        {data ? <img src={data.current.condition.icon} width={300} height={300} alt="icon" /> : <MdSunny color="yellow" />}
       </div>
     </div>
   );

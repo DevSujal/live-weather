@@ -27,7 +27,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className="sidebar" style={{background : "black", height:"50px"}} ref={sideRef}>
+    <div className="sidebar"  ref={sideRef}>
       <div className="icon main" onClick={handleClick}>
         <RiWindyLine  />
       </div>
