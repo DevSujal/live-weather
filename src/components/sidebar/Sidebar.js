@@ -29,7 +29,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar"  ref={sideRef}>
       <div className="icon main" onClick={handleClick}>
-        <RiWindyLine  />
+        <RiWindyLine />
       </div>
       <div className="icon">
         <TiWeatherPartlySunny />

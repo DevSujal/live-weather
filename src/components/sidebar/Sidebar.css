@@ -37,10 +37,11 @@
         position: absolute;
         top: 20px;
         left: 20px;
-        height: fit-content;
+        height: 50px;
         overflow: hidden;
         background: black;
         transition: all ease .5s;
+        z-index: 999;
         }
 
     }
