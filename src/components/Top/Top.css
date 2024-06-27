@@ -11,7 +11,7 @@
     justify-content: center;
 }
 .top .left .city {
-    font-size: 7vw;
+    font-size: 7vh;
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -32,8 +32,8 @@
 }
 
 @media screen and (max-width : 600px) {
-    .top {
-        
+    .top .left .city {
+        font-size: 7vw;
     }
     .top .right {
         font-size: 100px;
